@@ -24,7 +24,6 @@ jobs:
         with:
           context: .
           push: true
-          # Make sure to replace <YOUR_DOCKERHUB_USERNAME>
           tags: ${{ secrets.DOCKER_USERNAME }}/wisecow:latest
 
   deploy-to-k8s:
