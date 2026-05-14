@@ -1,0 +1,19 @@
+# Git and CI/CD
+.git
+.gitignore
+.github
+
+# Kubernetes manifests
+k8s/
+
+# Documentation
+README.md
+
+# Docker-related
+Dockerfile
+.dockerignore
+
+# Local TLS Certificates
+*.key
+*.crt
+*.pem
